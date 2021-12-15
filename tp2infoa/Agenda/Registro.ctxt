@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Registro
+comment1.params=
+comment1.target=Registro()
+comment2.params=
+comment2.target=java.util.List\ getRegistroCompleto()
+comment3.params=llamada
+comment3.target=void\ agregarLlamada(Llamada)
+comment4.params=
+comment4.target=void\ limpiarRegistro()
+comment5.params=minInicial\ segInicial\ minFinal\ segFinal
+comment5.target=java.util.List\ getLlamadasPorDuracion(int,\ int,\ int,\ int)
+comment5.text=\r\n\ Devuelve\ una\ lista\ con\ las\ llamadas\ cuya\ duracion\ esta\ comprendida\ entre\r\n\ \ \r\n\ \ [minInicial\:segInicial]\ y\ [minFinal\:segFinal]\ \r\n\r\n\ Ej.\ minInicial\ \=\ 1,\ segInicial\=30,\ minFinal\=3,\ segFinal\=45,\ la\ lista\r\n\ contendra\ solo\ llamadas\ cuya\ duracion\ este\ comprendida\ entre\r\n\ un\ minuto\ treinta\ segundos\ y\ tres\ minutos\ cuarenta\ y\ cinco\ segundos.\r\n\r\n\ Un\ argumento\ no\ es\ valido\ cuando\ el\ valor\ de\ un\ parametro\ es\ negativo,\r\n\ o\ cuando\ seg\ >\ 59\ o\ cuando\ el\ tiempo\ inicial\ es\ mayor\ que\ el\ final\ \r\n\ \r\n\ @param\ minInicial\ minutos\ para\ el\ tiempo\ minimo\ de\ duracion\ de\ la\ llamada\ \r\n\ @param\ segInicial\ segundos\ para\ el\ tiempo\ minimo\ de\ duracion\ de\ la\ llamada\r\n\ @param\ minFinal\ \ \ minutos\ para\ el\ tiempo\ maximo\ de\ duracion\ de\ la\ llamada\r\n\ @param\ segFinal\ \ \ segundos\ para\ el\ tiempo\ maximo\ de\ duracion\ de\ la\ llamada\r\n\ @return\ Lista\ de\ llamadas\ \r\n\ @throws\ ParametrosInconsistentesException\ cuando\ un\ parametro\ este\r\n\ \ \ \ \ \ \ \ \ fuera\ de\ rango.\r\n
+comment6.params=tipo
+comment6.target=java.util.List\ getLlamadasPorTipo(TipoDeLlamada)
+comment6.text=\r\n\ Devuelve\ una\ lista\ con\ las\ llamadas\ salientes\ o\ entrantes\r\n\ \r\n\ @param\ tipo\ tipo\ de\ Llamada\ ENTRANTE/SALIENTE\r\n\ @return\ Lista\ de\ llamadas\ por\ el\ tipo\ elegido\r\n
+comment7.params=
+comment7.target=int\ getDuracionTotalLlamadas()
+comment7.text=\r\n\ Devuelve\ un\ entero\ con\ la\ duracion\ total\ de\ las\ llamadas\ salientes\ y\r\n\ entrantes,\ en\ segundos\r\n\ \r\n\ @return\ duracion\ total\ de\ llmadas\r\n
+comment8.params=llamadas
+comment8.target=java.util.Map\ getMapaDeEstadisticas(java.util.List)
+comment8.text=\r\n\ Devuelve\ un\ mapa\ <String,\ EstadisticasNumero>\ \r\n\ con\ las\ estadisticas\ de\ cada\ numero\ en\ la\ lista\ de\ llamadas.\ \r\n\ \r\n\ @param\ llamadas\ Lista\ de\ las\ llamadas\ registradas\r\n\ @return\ mapa\ con\ las\ estadisticas\r\n\ @throws\ ParametrosInconsistentesException\ cuando\ la\ lista\ de\r\n\ \ \ \ \ \ \ \ \ llamadas\ es\ null.\r\n
+comment9.params=llamadas\ numero
+comment9.target=EstadisticasNumero\ getEstadisticasPorNumero(java.util.List,\ java.lang.String)
+comment9.text=\r\n\ Devuelve\ las\ estadisticas\ de\ la\ lista\ de\ llamados\ para\ un\r\n\ numero\ en\ particular\ \r\n\ \r\n\ @param\ llamadas\ Lista\ de\ las\ llamadas\ registradas\r\n\ @param\ numero\ Numero\ de\ telefono\ para\ averiguar\r\n\ @return\ estadisticas\ del\ numero\ solicitado\r\n\ @throws\ ParametrosInconsistentesException\ cuando\ un\ parametro\ es\ null.\r\n
+numComments=10

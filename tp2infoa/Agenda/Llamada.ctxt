@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Llamada
+comment1.params=numero\ fecha\ duracion\ saliente
+comment1.target=Llamada(java.lang.String,\ Fecha,\ int,\ TipoDeLlamada)
+comment1.text=\r\n\ Constructor\ con\ parametros.\r\n\ @param\ numero\r\n\ @param\ fecha\r\n\ @param\ duracion\r\n\ @param\ saliente\r\n
+comment2.params=
+comment2.target=TipoDeLlamada\ getTipoDeLlamada()
+comment3.params=
+comment3.target=int\ getDuracionEnSegundos()
+comment4.params=
+comment4.target=java.lang.String\ getNumero()
+comment5.params=
+comment5.target=Fecha\ getFecha()
+comment6.params=
+comment6.target=java.lang.String\ getDuracion()
+comment6.text=\r\n\ Retorna\ la\ duracion\ en\ un\ string\ con\ formato\ <mm\:ss>\r\n\ Ejemplos\:\ "03\:15",\ "12\:03",\ "110\:45"\r\n\ \r\n\ @return\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Retorna\ un\ String\ con\ el\ siguiente\ formato\:\r\n\ \r\n\ <aaaa/mm/dd>\ <hh\:mm>\ <(SALIENTE)|(ENTRANTE)>\ <numero>\ <duracion>\r\n\ \r\n\ Ej.\ "2013/05/06\ 21\:44\ 3514801234\ ENTRANTE\ 05\:12"\r\n\ \ \ \ \ "2013/01/30\ 01\:14\ 1161293091\ SALIENTE\ 12\:00"\r\n\ \r\n
+numComments=8
